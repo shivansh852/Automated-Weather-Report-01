@@ -9,7 +9,7 @@ while True:
 
     imap_server = "imap.gmail.com"
     email00 = 'sg6239@srmist.edu.in'
-    passward = "qsuosnaujrftwhsv"
+    passward = "passward cant be displayed"
 
     imap = imaplib.IMAP4_SSL(imap_server)
     imap.login(email00, passward)
@@ -106,7 +106,7 @@ while True:
     import ssl  # to add layer of security
 
     email_sender = 'sg6239@srmist.edu.in'
-    email_passward = "qsuosnaujrftwhsv"
+    email_passward = "passward cat be displayed"
 
     for i in range(len(Client_details)):
         email_receiver = Client_details[i][0]
